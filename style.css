@@ -1,0 +1,71 @@
+body {
+
+    text-align: center;
+    background: linear-gradient(#136cd1 0%, #13d1ce 100%);
+    background-repeat: no-repeat;
+}
+
+h1:hover {
+    color: yellow;
+    font-size: 60px;
+    background-color: blue;
+}
+
+img {
+    border-radius: 50%;
+    width: 500px;
+     transition: transform .2s;
+
+}
+
+p {
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Kanit', sans-serif;
+}
+
+h2 {
+    font-size: 40px
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    position: fixed;
+
+    
+}
+.list {
+        padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    float: right;
+}
+
+.list:hover {
+    color:darkmagenta;
+    font-size: 17px;
+    background-color: indianred;
+}
+
+img:hover {
+    transform: scale(1.5);
+}
+
+.contact_1 h3 {
+    display:inline;
+}
